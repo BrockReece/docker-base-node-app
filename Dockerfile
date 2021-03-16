@@ -1,4 +1,4 @@
-FROM node:10.17-alpine
+FROM node:12.13.0-alpine
 
 # Install app dependencies
 RUN apk update && apk upgrade && apk add git openssh
